@@ -94,6 +94,23 @@ HERO
     font-weight: 500;
 }
 
+.hero-title {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-title img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.hero-title h1 {
+    margin: 0;
+}
+
 .hero-content p {
     font-size: 1.2rem;
     margin-top: 10px;
